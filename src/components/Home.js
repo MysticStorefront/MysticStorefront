@@ -2,16 +2,17 @@ import React from "react";
 import "../App.css";
 import ImageCard from "./ImageCard";
 import LandingPage from "./LandingPage";
+import ReviewBlock from "./ReviewBlock";
 
 export default function Home() {
   return (
     <>
       <LandingPage />
       <div className="section-introduction">
-        <span className="header-2">
+        <span className="header">
           <h1 style={{ fontSize: 50 }}>Norwood Interiors</h1>
         </span>
-        <span className="paragraph-2">
+        <span className="paragraph">
           <p>
             LLorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -33,6 +34,7 @@ export default function Home() {
         <ImageCard />
         <ImageCard />
       </div>
+      <ReviewBlock />
     </>
   );
 }
