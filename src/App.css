@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.section-hero-image {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px 60px 60px;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 20;
+    background-image: url('https://images.pexels.com/photos/1099816/pexels-photo-1099816.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 0px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-introduction {
+    box-sizing: border-box;
+    flex-shrink: 0; 
+    width: 100%; 
+    height: min-content; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    padding: 100px 40px 100px 40px; 
+    background-color: #ffffff; 
+    overflow: hidden; 
+    position: relative; 
+    align-content: flex-start; 
+    flex-wrap: nowrap; 
+    gap: 40;
+    border-radius: 0px 0px 0px 0px; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.paragraph-2{
+    flex-shrink: 0;
+    width: 1px;
+    height: auto; /* 101px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 900px;
+    flex: 1 0 0px;
+    position: relative;
+    line-height: 1.2;
   }
+
+.header-2{
+    flex-shrink: 0;
+    width: auto; 
+    height: auto; 
+    white-space: pre;
+    z-index: 1;
+    position: relative;
+    line-height: 1.2;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.portfolio {
+    flex-shrink: 0;
+    width: auto;
+    height: min-content;
+    display: grid;
+    flex: 1 0 0px;
+    position: relative;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    justify-content: center;
+    grid-auto-rows: 215px;
+    grid-template-rows: repeat(1, 215px);
+    padding: 0px 0px 0px 0px;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px; 
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
