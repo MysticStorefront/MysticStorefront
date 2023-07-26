@@ -8,7 +8,7 @@ import Footer1 from "./Footer1";
 export default function Home() {
   return (
     <>
-      <LandingPage />
+      <LandingPage header = {"landing-image "}/>
       <div className="section-introduction">
         <span className="header">
           <h1 style={{ fontSize: 50 }}>Norwood Interiors</h1>

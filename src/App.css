@@ -1,7 +1,6 @@
 .section-introduction {
     box-sizing: border-box;
     flex-shrink: 0;
-    width: 100%;
     height: min-content;
     flex-direction: column;
     justify-content: flex-start;
@@ -18,7 +17,6 @@
 
 .paragraph {
     flex-shrink: 0;
-    width: 1px;
     height: auto;
     /* 101px */
     white-space: pre-wrap;
@@ -32,7 +30,6 @@
 
 .header {
     flex-shrink: 0;
-    width: auto;
     height: auto;
     white-space: pre;
     z-index: 1;

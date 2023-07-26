@@ -1,10 +1,11 @@
 import React from 'react';
 import './LandingPage.css';
 
-const LandingPage = () => {
+const LandingPage = (props) => {
+  const{header} = props;
   return (
     <div className="landing-section">
-      <div className="landing-image"></div>
+      <div className={header}></div>
     </div>
   );
 };
