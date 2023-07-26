@@ -1,0 +1,45 @@
+.header-area {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 40px 100px 40px;
+    background-color: #ffffff;
+    overflow: hidden;
+    flex: 1 0 0px;
+    position: relative;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 40;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.contact-header {
+    flex-shrink: 0;
+    width: auto;
+    /* 437px */
+    height: auto;
+    /* 120px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 1360px;
+    position: relative;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.contact-paragraph{
+    flex-shrink: 0;
+    width: 100%;
+    height: auto; /* 202px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 740px;
+    position: relative;
+    line-height: 1.2;
+  }
