@@ -36,7 +36,7 @@ export default function Home() {
         <ImageCard />
       </div>
       <ReviewBlock />
-      <LandingPage />
+      <LandingPage header={"image"} />
       <Footer1 />
     </>
   );
