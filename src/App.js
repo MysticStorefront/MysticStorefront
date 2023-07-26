@@ -9,6 +9,7 @@ import {
   Routes,
   BrowserRouter,
 } from "react-router-dom";
+import Footer2 from './components/Footer2';
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/item" element={<Item />} />
         </Routes>
       </div>
+      <Footer2 />
     </BrowserRouter>
   );
 }

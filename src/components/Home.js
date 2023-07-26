@@ -3,6 +3,7 @@ import "../App.css";
 import ImageCard from "./ImageCard";
 import LandingPage from "./LandingPage";
 import ReviewBlock from "./ReviewBlock";
+import Footer1 from "./Footer1";
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
         <ImageCard />
       </div>
       <ReviewBlock />
+      <LandingPage />
+      <Footer1 />
     </>
   );
 }
