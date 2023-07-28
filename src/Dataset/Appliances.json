@@ -1,0 +1,160 @@
+{
+    "data": [
+        { "id": 1,
+         "title": "Bathroom",
+         "imgURL": "1.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "https://picsum.photos/200/300"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "https://picsum.photos/200/300"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "https://picsum.photos/200/300"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "https://picsum.photos/200/300"
+          }
+        ]
+       },
+        { "id": 2,
+         "title": "Living Room",
+         "imgURL": "Feature.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          }
+        ]
+       },
+        { "id": 3,
+         "title": "Bedroom",
+         "imgURL": "Feature.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          }
+        ]
+       },
+        { "id": 4,
+         "title": "Sink",
+         "imgURL": "Feature.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          }
+        ]
+       },
+        { "id": 5,
+         "title": "Steamer",
+         "imgURL": "Feature.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          }
+        ]
+       },
+        { "id": 6,
+         "title": "Furniture",
+         "imgURL": "Feature.jpg",
+         "items": [
+          {
+            "name": "Designers",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Images",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          } ,
+          {
+            "name": "Location",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          },
+          {
+            "name": "Timeline",
+            "text": "Brown",
+            "imageUrl": "Bathroom.jpg"
+          }
+        ]
+       }
+     ]
+    }
