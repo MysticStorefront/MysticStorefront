@@ -53,6 +53,22 @@
     border-radius: 0px 0px 0px 0px;
 }
 
+.portfolio-item {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* Adjust spacing between cards */
+    /* Set your desired max width */
+    margin: 0 auto;
+    flex-shrink: 0;
+    width: auto;
+    height: min-content;
+    flex: 1 0 0px;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
 .section-testimonials {
     box-sizing: border-box;
     flex-shrink: 0;
@@ -69,6 +85,7 @@
     gap: 40;
     border-radius: 0px 0px 0px 0px;
 }
+
 .profile-picture-container {
     position: relative;
     width: 60px;
@@ -89,3 +106,24 @@
     object-fit: cover;
     object-position: center;
 }
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+} */

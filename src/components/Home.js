@@ -4,8 +4,10 @@ import ImageCard from "./ImageCard";
 import LandingPage from "./LandingPage";
 import ReviewBlock from "./ReviewBlock";
 import Footer1 from "./Footer1";
+import data from '../Dataset/Appliances.json';
 
-export default function Home() {
+export default function Home(props) {
+  const {setData} = props;
   return (
     <>
       <LandingPage header = {"landing-image "}/>
@@ -28,12 +30,9 @@ export default function Home() {
         </span>
       </div>
       <div className="portfolio">
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
+      {data.data.map((data,index) => (
+              <ImageCard key={index} title={data.title} items={data.items} URL={data.imgURL} setData={setData}/>
+          ))}
       </div>
       <ReviewBlock />
       <LandingPage header={"image"} />
