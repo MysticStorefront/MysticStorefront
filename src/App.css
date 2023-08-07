@@ -1,45 +1,24 @@
-.section-hero-image {
+.section-introduction {
     box-sizing: border-box;
     flex-shrink: 0;
-    width: 100%;
-    display: flex;
+    height: min-content;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 60px 60px 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 40px 100px 40px;
+    background-color: #ffffff;
     overflow: hidden;
     position: relative;
-    align-content: center;
+    align-content: flex-start;
     flex-wrap: nowrap;
-    gap: 20;
-    background-image: url('https://images.pexels.com/photos/1099816/pexels-photo-1099816.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    gap: 40;
     border-radius: 0px 0px 0px 0px;
 }
 
-.section-introduction {
-    box-sizing: border-box;
-    flex-shrink: 0; 
-    width: 100%; 
-    height: min-content; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    padding: 100px 40px 100px 40px; 
-    background-color: #ffffff; 
-    overflow: hidden; 
-    position: relative; 
-    align-content: flex-start; 
-    flex-wrap: nowrap; 
-    gap: 40;
-    border-radius: 0px 0px 0px 0px; 
-}
-.paragraph-2{
+.paragraph {
     flex-shrink: 0;
-    width: 1px;
-    height: auto; /* 101px */
+    height: auto;
+    /* 101px */
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-word;
@@ -47,12 +26,11 @@
     flex: 1 0 0px;
     position: relative;
     line-height: 1.2;
-  }
+}
 
-.header-2{
+.header {
     flex-shrink: 0;
-    width: auto; 
-    height: auto; 
+    height: auto;
     white-space: pre;
     z-index: 1;
     position: relative;
@@ -70,9 +48,82 @@
     position: relative;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     justify-content: center;
-    grid-auto-rows: 215px;
-    grid-template-rows: repeat(1, 215px);
     padding: 0px 0px 0px 0px;
     gap: 0;
-    border-radius: 0px 0px 0px 0px; 
-  }
+    border-radius: 0px 0px 0px 0px;
+}
+
+.portfolio-item {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* Adjust spacing between cards */
+    /* Set your desired max width */
+    margin: 0 auto;
+    flex-shrink: 0;
+    width: auto;
+    height: min-content;
+    flex: 1 0 0px;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.section-testimonials {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 40px 100px 40px;
+    overflow: visible;
+    position: relative;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 40;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.profile-picture-container {
+    position: relative;
+    width: 60px;
+    /* Adjust the width as needed */
+    height: 60px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    margin-right: 250px;
+    /* Add some spacing between the picture and the card content */
+    border-radius: 50%;
+    /* Make it a circle */
+}
+
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+} */
