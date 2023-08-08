@@ -9,7 +9,7 @@ export default function Footer1() {
     <>
      <div className="section-introduction">
         <span className="header-2">
-          <h1 style={{ fontSize: 50 }}>Let's work together</h1>
+          <h1 style={{ fontSize: 50 }}>Collaborate with us</h1>
         </span>
         <span className="paragraph-2">
           <p>

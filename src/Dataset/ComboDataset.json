@@ -1,0 +1,107 @@
+{"data": [
+    {
+      "name": "Combo Offer 1 - Bathroom",
+      "description": "Powerful smartphone with a high-resolution display and advanced camera.",
+      "offers": [
+        {
+          "name": "Combo Offer 1",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 2",
+          "text": "This is sample text for Combo Offer"
+        } ,
+        {
+          "name": "Combo Offer 3",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        }
+    ]
+    },
+    {
+      "name": "Combo Offer 2 - Bathroom",
+      "description": "Premium wireless earbuds with noise-cancellation and long battery life.",
+      "offers": [
+        {
+          "name": "Combo Offer 1",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 2",
+          "text": "This is sample text for Combo Offer"
+        } ,
+        {
+          "name": "Combo Offer 3",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        }
+    ]
+    },
+    {
+      "name": "Combo Offer 3 - Bathroom",
+      "description": "Immersive Ultra HD smart TV with built-in streaming services and voice control.",
+      "offers": [
+        {
+          "name": "Combo Offer 1",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 2",
+          "text": "This is sample text for Combo Offer"
+        } ,
+        {
+          "name": "Combo Offer 3",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        }
+    ]
+    },
+    {
+      "name": "Combo Offer 4 - Bathroom",
+      "description": "Stylish and durable leather jacket for men with a classic design.",
+      "offers": [
+        {
+          "name": "Combo Offer 1",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 2",
+          "text": "This is sample text for Combo Offer"
+        } ,
+        {
+          "name": "Combo Offer 3",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        },
+        {
+          "name": "Combo Offer 4",
+          "text": "This is sample text for Combo Offer"
+        }
+    ]
+    }
+  ]
+}
