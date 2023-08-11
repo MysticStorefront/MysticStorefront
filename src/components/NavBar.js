@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 export default function NavBar() {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Nav className= "container-fluid mx-2">
           <Navbar.Brand as={Link} to="/">Mystic Store</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

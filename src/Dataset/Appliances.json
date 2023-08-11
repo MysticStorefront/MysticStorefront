@@ -5,23 +5,27 @@
          "imgURL": "1.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Bathroom",
+            "name":"Actual Offer Text - 1",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "https://picsum.photos/200/300"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Bathroom",
+            "name":"Actual Offer Text - 2",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "https://picsum.photos/200/300"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Bathroom",
+            "name":"Actual Offer Text - 3",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "https://picsum.photos/200/300"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Bathroom",
+            "name":"Actual Offer Text - 4",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "https://picsum.photos/200/300"
           }
         ]
@@ -31,23 +35,27 @@
          "imgURL": "Feature.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Living Room",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Living Room",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Living Room",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Living Room",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           }
         ]
@@ -57,23 +65,27 @@
          "imgURL": "Feature.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Bedroom",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Bedroom",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Bedroom",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Bedroom",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           }
         ]
@@ -83,23 +95,27 @@
          "imgURL": "Feature.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Sink",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Sink",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Sink",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Sink",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           }
         ]
@@ -109,23 +125,27 @@
          "imgURL": "Feature.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Steamer",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Steamer",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Steamer",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Steamer",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           }
         ]
@@ -135,23 +155,27 @@
          "imgURL": "Feature.jpg",
          "items": [
           {
-            "name": "Designers",
-            "text": "Brown",
+            "id": "Combo Offer 1 - Furniture",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Images",
-            "text": "Brown",
+            "id": "Combo Offer 2 - Furniture",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           } ,
           {
-            "name": "Location",
-            "text": "Brown",
+            "id": "Combo Offer 3 - Furniture",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           },
           {
-            "name": "Timeline",
-            "text": "Brown",
+            "id": "Combo Offer 4 - Furniture",
+            "name":"Actual Offer Text",
+            "text": "This is sample text for Combo Offer",
             "imageUrl": "Bathroom.jpg"
           }
         ]

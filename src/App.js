@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState} from "react";
+import React from "react";
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar';
@@ -11,17 +11,18 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import Footer2 from './components/Footer2';
+import ItemCombo from './components/ItemCombo';
 function App() {
-  const [dat, setDat] = useState({title: ""});
   return (
     <BrowserRouter>
       <NavBar />
       <div className="container">
         <Routes>
-          <Route exact path="/" element={<Home setData={setDat}/>} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/item/:itemId" element={<Item data={dat} setData={setDat}/>} />
+          <Route exact path="/item/:itemId" element={<Item />} />
+          <Route exact path="/itemCombo/:itemId" element={<ItemCombo />} />
         </Routes>
       </div>
       <Footer2 />
